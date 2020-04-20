@@ -1,0 +1,126 @@
+{
+    "message": {
+        "home": {
+            "title": "ホーム",
+            "language": "言語",
+            "introduction": {
+                "aboutUs": "About us",
+                "companyIntr": "会社概要",
+                "intrContent": [
+                    {
+                        "text": " フレダ・テクノロジーは「顧客第一」と「品質第一」を経営理念としており、パートナーに高品質の製品とサービスを提供し、半導体業界で高価値のサービスプロバイダーになることを目指しています。"
+                    },
+                    {
+                        "text": "世界的に有名な半導体メーカーと協力して、ダミーウェハー、テストウェハー、製品ウェハー、特殊ウェハーなど、包括的なシリコンウェハーソリューションを提供しています。 シリコンウェハーシリコン酸化物（Oxide）、シリコン窒化物（Si3N4）、アルミメッキシリコンウェハー、銅メッキシリコンウェハー、SOIウェハー、MEMSガラス、カスタム超厚、超平坦シリコンウェハーなど。半導体ウェハーの片面/両面研磨、薄化、切断、MEMS、その他の加工およびカスタマイズサービスを提供できます。"
+                    },
+                    {
+                        "text": " 半導体分野に加えて、当社は太陽光発電および窒化ケイ素の分野でも製品を提供できます。 通常の製品、特別な仕様の製品、カスタマイズされた製品など、満足のいくサービスを提供できます。"
+                    }
+                ]
+            },
+            "project": {
+                "advantage": "ビジネス　アドバンテージ",
+                "global": "グローバル",
+                "customize": "技術力",
+                "profession": "高品質"
+            },
+            "swiper": [
+                {
+                    "list": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "list": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "product": {
+            "title": "製品",
+            "service": "製品サービス",
+            "productInfo": "製品一覧",
+            "pre": "前へ：",
+            "next": "次へ：",
+            "return": "戻る",
+            "category": [
+                {
+                    "title": "半導体製品"
+                },
+                {
+                    "title": "太陽光製品"
+                },
+                {
+                    "title": "窒化ケイ素製品"
+                }
+            ]
+        },
+        "news": {
+            "title": "新着情報",
+            "center": "新着情報",
+            "article": {
+                "author": "",
+                "releaseTime": "リリースタイム："
+            }
+        },
+        "contact": {
+            "callUsEmail": "service@fuledatech.com",
+            "callUsPhone1": "+81-09050920178",
+            "callUsPhone2": "+86-13942008044",
+            "title": "お問い合わせ",
+            "companyName": "フレダ・テクノロジー有限会社",
+            "form": "Contact Form",
+            "desc": "以下の空欄を全てご記入ください。",
+            "company": "会社名:",
+            "name": "お名前:",
+            "mobile": "電話番号:",
+            "email": "メールアドレス:",
+            "confirm": "メールアドレス確認:",
+            "message": "お問い合わせ内容:",
+            "companyError": "会社名ご記入ください。",
+            "nameError": "お名前ご記入ください。",
+            "mobileError": "電話番号ご記入ください。",
+            "emailValid": "メールアドレスを正しくご記入ください。",
+            "emailError": "メールアドレスご記入ください。",
+            "confirmError": "確認メールアドレスご記入ください。",
+            "messageError": "お問い合わせ内容ご記入ください。",
+            "messageLengthError": "お問い合わせ内容は1000文字を超えないようにしてください。",
+            "submit": "送信",
+            "reset": "リセット"
+        },
+        "footer": {
+            "contactUs": "Contact Us",
+            "address": "Unit D, 16/F, One Capital Place 18 Luard Road,Wanchai,Hong Kong",
+            "wechat": "Wechat:18004113729",
+            "contactPhone1": "Contact:Shon/Call:+81-09050920178",
+            "contactPhone2": "Contact:Luna/Call:+86-13942008044",
+            "contactEmail": "Email:service@fuledatech.com"
+        }
+    }
+}

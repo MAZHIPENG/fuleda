@@ -1,0 +1,26 @@
+{
+  "name": "ssr-website",
+  "version": "1.0.0",
+  "description": "fuleda office website",
+  "author": "zhangchunmeng",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.4.11",
+    "express": "^4.16.4",
+    "axios": "^0.19.0",
+    "nuxt": "^2.0.0",
+    "vue-i18n": "^8.17.2"
+  },
+  "devDependencies": {
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "nodemon": "^1.18.9"
+  }
+}

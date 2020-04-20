@@ -1,0 +1,126 @@
+{
+    "message": {
+        "home": {
+            "title": "主页",
+            "language": "语言",
+            "introduction": {
+                "aboutUs": "关于我们",
+                "companyIntr": "企业介绍",
+                "intrContent": [
+                    {
+                        "text": "富乐达科技有限公司以「客户第一」、「品質第一」为经营理念，我们为合作伙伴提供高品质产品服务，为成为半导体行业高价值服务商而不断努力。"
+                    },
+                    {
+                        "text": "我们与全球知名半导体厂商合作提供全面的硅片（Silicon Wafer）解决方案，从调试级硅片（Dummy Wafer）,测试级硅片（Test Wafer），到产品级硅片（Prime Wafer），以及特殊硅片氧化硅片（Oxide）、氮化硅片(Si3N4)、镀铝硅片、镀铜硅片、SOI Wafer、MEMS Glass、定制超厚、超平硅片等，尺寸覆盖50mm-300mm,并可提供半导体硅片单面/双面抛光、减薄、切割、MEMS等加工和定制服务。"
+                    },
+                    {
+                        "text": "半导体领域以外我公司还可以提供太阳能以及氮化硅领域的产品。常规产品、特殊规格产品以及定制产品本公司都可以为您提供满意服务。"
+                    }
+                ]
+            },
+            "project": {
+                "advantage": "业务优势",
+                "global": "全球合作",
+                "customize": "定制加工",
+                "profession": "专业服务"
+            },
+            "swiper": [
+                {
+                    "list": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "list": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "product": {
+            "title": "产品",
+            "service": "产品服务",
+            "productInfo": "商品信息",
+            "pre": "上一个：",
+            "next": "下一个：",
+            "return": "返回",
+            "category": [
+                {
+                    "title": "半导体产品"
+                },
+                {
+                    "title": "太阳能产品"
+                },
+                {
+                    "title": "氮化硅陶瓷产品"
+                }
+            ]
+        },
+        "news": {
+            "title": "新闻",
+            "center": "新闻中心",
+            "article": {
+                "author": "作者：",
+                "releaseTime": "发布时间："
+            }
+        },
+        "contact": {
+            "callUsEmail":"service@fuledatech.com",
+            "callUsPhone1":"+81-09050920178",
+            "callUsPhone2":"+86-13942008044",
+            "title": "咨询栏",
+            "companyName": "富乐达科技有限公司",
+            "form": "Contact Form",
+            "desc": "请填写以下所有信息。",
+            "company": "公司名称:",
+            "name": "名字:",
+            "mobile": "电话:",
+            "email": "邮箱:",
+            "confirm": "邮箱确认:",
+            "message": "咨询内容:",
+            "companyError": "请填写公司名称。",
+            "nameError": "请填写名字。",
+            "emailValid": "请填写正确邮箱格式。",
+            "mobileError": "请填写电话。",
+            "emailError": "请填写邮箱。",
+            "confirmError": "邮箱确认请填写。",
+            "messageError": "请填写咨询内容。",
+            "messageLengthError": "咨询内容不能超过1000字。",
+            "submit": "发送",
+            "reset": "重置"
+        },
+        "footer": {
+            "contactUs": "Contact Us",
+            "address": "Unit D, 16/F, One Capital Place 18 Luard Road,Wanchai,Hong Kong",
+            "wechat": "Wechat:18004113729",
+            "contactPhone1": "Contact:Shon/Call:+81-09050920178",
+            "contactPhone2": "Contact:Luna/Call:+86-13942008044",
+            "contactEmail": "Email:service@fuledatech.com"
+        }
+    }
+}
