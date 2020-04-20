@@ -215,7 +215,6 @@ export default {
         for (let i = 0; i < categoryList.length; i++) {
           const product = categoryList[i];
           if (product.title == productName) {
-            console.log(" index:" + i);
 
             if (i == 0) {
               this.preProductDetail.title = "...";
@@ -272,7 +271,6 @@ export default {
     },
     initHtml: function() {
       var categoryList = this.list;
-      console.log(categoryList);
       if (
         categoryList != undefined &&
         categoryList != null &&
@@ -288,7 +286,6 @@ export default {
   },
   watch: {
     $route: function(to, from) {
-      console.log('routerererersdfadsfasd')
       this.showIndex = this.$route.query.id;
       this.indexParam = this.$route.query.id;
       this.flag = false;
@@ -312,8 +309,6 @@ export default {
     }
   },
   mounted: function() {
-    
-    console.log('beging')
     var language = this.$i18n.locale;
     if (language == "en") {
       language = "English";

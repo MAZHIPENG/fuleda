@@ -24,7 +24,6 @@ export default {
   },
   mounted() {
     //可以使用swiper这个对象去使用swiper官网中的那些方法
-    // console.log("this is current swiper instance object", this.swiper);
     var lan = this.$i18n.locale;
     this.imgUrls.push("/swiper/swiper-" + lan + "-01.jpg");
     this.imgUrls.push("/swiper/swiper-" + lan + "-02.jpg");

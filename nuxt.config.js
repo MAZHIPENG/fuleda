@@ -5,14 +5,17 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'FULEDA',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { name: 'viewport', content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' },
+      { hid: 'description', name: 'description', content: 'fuleda富乐达科技，为成为半导体行业高价值服务商而不断努力' },
+      {name: 'baidu-site-verification', content: "GUEX04ANFZ"},
+      {name: 'google-site-verification', content: "OrJbGio1EtsulKr1cEXtPe4nKVxkhg7Vj3S4qF3jaqo"},
+      {name: 'keywords', content: '半导体,semiconductor,fuleda'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
   /*

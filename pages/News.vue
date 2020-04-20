@@ -90,7 +90,6 @@ export default {
         .then(res => {
           this.newsList = res.data.result;
         });
-      console.log(current, pageSize);
     }
   },
   mounted: function() {

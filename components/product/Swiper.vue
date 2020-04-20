@@ -65,7 +65,6 @@ export default {
         //滑动之后回调函数
         on: {
           slideChangeTransitionEnd: function() {
-            // console.log(this.activeIndex);//切换结束时，告诉我现在是第几个slide
           }
         },
         //左右点击
@@ -89,7 +88,6 @@ export default {
   },
   mounted() {
     //可以使用swiper这个对象去使用swiper官网中的那些方法
-    console.log("this is current swiper instance object", this.swiper);
     // this.swiper.slideTo(0, 0, false);
   }
 };

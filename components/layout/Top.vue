@@ -64,7 +64,6 @@ export default {
     // if (locales[lang] === undefined) {
     //   lang = DEFAULT_LANG
     // }
-    // console.log(app.$cookies)
   }
 };
 </script>

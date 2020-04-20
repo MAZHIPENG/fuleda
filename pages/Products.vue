@@ -199,7 +199,6 @@ export default {
     // },
     goProjectDetail: function(index, productDetail) {
       if (productDetail.title != "无") {
-        //console.info("productDetail", JSON.stringify(productDetail));
         this.indexParam = index;
         this.flag = true;
         this.productDetail = productDetail;
@@ -210,13 +209,10 @@ export default {
     },
     getPageProduct: function(index, productName) {
       var categoryList = this.pageProfucts[index];
-      //console.info("categoryList", JSON.stringify(categoryList));
       if (categoryList != null) {
         for (let i = 0; i < categoryList.length; i++) {
           const product = categoryList[i];
           if (product.title == productName) {
-            console.log(" index:" + i);
-
             if (i == 0) {
               this.preProductDetail.title = "...";
             } else {
@@ -272,7 +268,6 @@ export default {
     },
     initHtml: function() {
       var categoryList = this.list;
-      console.log(categoryList);
       if (
         categoryList != undefined &&
         categoryList != null &&
@@ -313,7 +308,6 @@ export default {
   },
   mounted: function() {
     var language = this.$store.state.locale;
-    console.log(language)
     if (language == "en") {
       language = "English";
     } else if (language == "ja") {

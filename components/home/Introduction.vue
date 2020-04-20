@@ -31,7 +31,7 @@
   }
   .introduction {
     line-height: 16.79px;
-    display: flex;
+    // display: flex;
     text-align: left;
     .introduction-content {
       padding: 10px;
@@ -47,9 +47,8 @@
       }
     }
     .introduction-img {
-      margin: auto;
+      text-align: center;
       img {
-        margin: auto 0;
         width: 500px;
         height: 386px;
         object-fit: cover;

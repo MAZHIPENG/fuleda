@@ -4,31 +4,31 @@
       <ul>
         <li>
           <router-link to="/">
-            <a href="#">{{$t("message.home.title")}}</a>
+            {{$t("message.home.title")}}
           </router-link>
         </li>
         <li class="change">
           <a @click="changeRouter" class="change-btn">{{$t("message.product.title")}}</a>
           <div class="change-category">
             <router-link to="/product-detail/?id=0">
-              <a href="#">{{$t("message.product.category[0].title")}}</a>
+             {{$t("message.product.category[0].title")}}
             </router-link>
             <router-link to="/product-detail/?id=1">
-              <a href="#">{{$t("message.product.category[1].title")}}</a>
+              {{$t("message.product.category[1].title")}}
             </router-link>
             <router-link to="/product-detail/?id=2">
-              <a href="#">{{$t("message.product.category[2].title")}}</a>
+              {{$t("message.product.category[2].title")}}
             </router-link>
           </div>
         </li>
         <li>
           <router-link to="/news">
-            <a href="#news">{{$t("message.news.title")}}</a>
+            {{$t("message.news.title")}}
           </router-link>
         </li>
         <li>
           <router-link to="/contact">
-            <a href="#contact">{{$t("message.contact.title")}}</a>
+            {{$t("message.contact.title")}}
           </router-link>
         </li>
       </ul>
@@ -39,7 +39,6 @@
 export default {
   methods: {
     changeRouter: function() {
-      console.log(this.$route.name);
       if (this.$route.name == "Products") {
        location.reload();
       } else {

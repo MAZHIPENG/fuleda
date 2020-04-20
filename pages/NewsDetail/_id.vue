@@ -35,7 +35,6 @@ export default {
       } else {
         language = "Chinese";
       }
-      console.log(this.$i18n.locale);
       axios
         .get(
           `https://www.fuledatech.com:8080/news/get/single?id=${this.$route.params.id}&language=${language}`
@@ -46,7 +45,6 @@ export default {
     }
   },
   mounted: function() {
-    console.log('id')
     var language = this.$i18n.locale;
     if (language == "en") {
       language = "English";
@@ -55,7 +53,6 @@ export default {
     } else {
       language = "Chinese";
     }
-    console.log(this.$i18n.locale);
     axios
       .get(
         `https://www.fuledatech.com:8080/news/get/single?id=${this.$route.params.id}&language=${language}`

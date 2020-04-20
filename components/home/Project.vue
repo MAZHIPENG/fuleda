@@ -74,7 +74,6 @@ export default {
       } else {
         language = "Chinese";
       }
-      // console.log(this.$i18n.locale)
     }
   },
   mounted: function() {
