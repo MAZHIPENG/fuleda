@@ -288,13 +288,12 @@ export default {
   },
   watch: {
     $route: function(to, from) {
-      this.showIndex = this.$route.params.index;
-      this.indexParam = this.$route.params.index;
+      console.log('routerererersdfadsfasd')
+      this.showIndex = this.$route.query.id;
+      this.indexParam = this.$route.query.id;
       this.flag = false;
-      console.log(this.$route.params.index);
     },
     "$i18n.locale": function() {
-      console.log("");
       var language = this.$i18n.locale;
       if (language == "en") {
         language = "English";
@@ -303,7 +302,6 @@ export default {
       } else {
         language = "Chinese";
       }
-      console.log(this.$i18n.locale);
       axios
         .get("https://www.fuledatech.com:8080/product/get?language=" + language)
         .then(res => {
@@ -314,6 +312,8 @@ export default {
     }
   },
   mounted: function() {
+    
+    console.log('beging')
     var language = this.$i18n.locale;
     if (language == "en") {
       language = "English";
@@ -322,7 +322,8 @@ export default {
     } else {
       language = "Chinese";
     }
-    console.log(this.$i18n.locale);
+    this.showIndex = this.$route.query.id;
+    this.indexParam = this.$route.query.id;
     axios
       .get("https://www.fuledatech.com:8080/product/get?language=" + language)
       .then(res => {

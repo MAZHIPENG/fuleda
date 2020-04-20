@@ -10,13 +10,13 @@
         <li class="change">
           <a @click="changeRouter" class="change-btn">{{$t("message.product.title")}}</a>
           <div class="change-category">
-            <router-link to="/products/0">
+            <router-link to="/product-detail/?id=0">
               <a href="#">{{$t("message.product.category[0].title")}}</a>
             </router-link>
-            <router-link to="/products/1">
+            <router-link to="/product-detail/?id=1">
               <a href="#">{{$t("message.product.category[1].title")}}</a>
             </router-link>
-            <router-link to="/products/2">
+            <router-link to="/product-detail/?id=2">
               <a href="#">{{$t("message.product.category[2].title")}}</a>
             </router-link>
           </div>

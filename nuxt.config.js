@@ -41,6 +41,8 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    // Simple usage
+    'cookie-universal-nuxt'
   ],
   /*
   ** Build configuration

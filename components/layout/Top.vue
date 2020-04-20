@@ -40,6 +40,7 @@
   </div>
 </template>
 <script>
+import { mapMutations } from 'vuex'
 export default {
   data() {
     return {
@@ -49,15 +50,21 @@ export default {
 
   methods: {
     changeLan: function(lan) {
-      this.$i18n.locale = lan;
-      this.nameImg = "/static/name/name-" + lan + ".png";
-      window.localStorage.setItem("localeLanguage", lan);
+      this.$store.commit('SET_LANG', lan)
+      this.nameImg = "/name/name-" + lan + ".png";
       location.reload();
     }
   },
   mounted: function() {
-    var lan = this.$i18n.locale;
-    this.nameImg = "/static/name/name-" + lan + ".png";
+    const DEFAULT_LANG = 'en'
+    const LOCALE_KEY = 'localeLanguage'
+    var lan = this.$store.state.locale;
+    this.nameImg = "/name/name-" + lan + ".png";
+    // let lang = window.localStorage.getItem(LOCALE_KEY)
+    // if (locales[lang] === undefined) {
+    //   lang = DEFAULT_LANG
+    // }
+    // console.log(app.$cookies)
   }
 };
 </script>

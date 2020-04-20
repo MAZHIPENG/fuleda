@@ -21,15 +21,15 @@
         </ul>
       </div>
     </div>
-    <div class="page">
-      <a-pagination
+    <!-- <div class="page">
+      <el-pagination
         size="small"
         :total="allcount"
         @change="onChange"
         :pageSize="pageSize"
         :defaultCurrent="1"
       />
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
