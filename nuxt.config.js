@@ -32,8 +32,8 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/element-ui',
-    '@/plugins/i18n.js'
+    { src: '~/plugins/element-ui', ssr: true },
+    { src: '~/plugins/i18n.js', ssr: true }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -51,8 +51,19 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ['vue-i18n'], // webpack vue-i18n.bundle.js
-    transpile: [/^element-ui/],
+    vendor: ['vue-i18n','element-ui'], // webpack vue-i18n.bundle.js
+    maxChunkSize: 300000,
+    babel: {
+      plugins: [
+          [
+              'component',
+              {
+                  'libraryName': 'element-ui',
+                  'styleLibraryName': 'theme-chalk'
+              }
+          ]
+      ]
+    },
     /*
     ** You can extend webpack config here
     */
@@ -62,6 +73,9 @@ module.exports = {
   router: {              // customize nuxt.js router (vue-router).
     middleware: 'i18n'   // middleware all pages of the application
   },
+  render: {
+    resourceHints: false
+  }
   // generate: {
   //   routes: ['/', '/about', '/fr', '/fr/about']
   // }
