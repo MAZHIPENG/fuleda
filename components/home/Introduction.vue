@@ -22,7 +22,6 @@
 </template>
 <style lang="less" scoped>
 .introduct {
-  padding: 10px 160px;
   background-color: #f6f6f6;
   .title p {
     color: #3773dc;
@@ -30,10 +29,13 @@
     text-align: center;
   }
   .introduction {
+    max-width: 1000px;
     line-height: 16.79px;
-    // display: flex;
+    display: flex;
     text-align: left;
+    margin: 0 auto;
     .introduction-content {
+      width: 70%;
       padding: 10px;
       .introduction-title {
         color: rgb(67, 67, 67);
@@ -47,25 +49,46 @@
       }
     }
     .introduction-img {
-      text-align: center;
+      width: 30%;
+      position: relative;
       img {
-        width: 500px;
-        height: 386px;
+        width: 100%;
         object-fit: cover;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
       }
     }
   }
 }
-@media screen and(max-device-width:1200px) {
+@media (max-width:1200px) {
   .introduct {
     padding: 20px;
     .introduction {
-      display: flex;
-      flex-direction: column-reverse;
       .introduction-img img {
         width: 100%;
         height: auto;
       }
+    }
+  }
+}
+@media(max-width:1000px) {
+  .introduct {
+    .introduction {
+      display: block;
+      .introduction-content {
+        width: 100%;
+      }
+      .introduction-img {
+        width: 100%;
+        height: 500px;
+        img {
+          width: 70%;
+          height: auto;
+        }
+      }
+      
     }
   }
 }
