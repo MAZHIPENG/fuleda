@@ -10,7 +10,7 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width,initial-scale=0.3,minimum-scale=0.3,maximum-scale=0.3,user-scalable=no' },
       { hid: 'description', name: 'description', content: 'fuleda富乐达科技，为成为半导体行业高价值服务商而不断努力' },
-      {name: 'baidu-site-verification', content: "GUEX04ANFZ"},
+      {name: 'baidu-site-verification', content: "JOVc29aSEV"},
       {name: 'google-site-verification', content: "OrJbGio1EtsulKr1cEXtPe4nKVxkhg7Vj3S4qF3jaqo"},
       {name: 'keywords', content: '半导体,semiconductor,fuleda'}
     ],
