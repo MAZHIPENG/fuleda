@@ -35,8 +35,9 @@
     text-align: left;
     margin: 0 auto;
     .introduction-content {
-      width: 70%;
+      width: 45%;
       padding: 10px;
+      padding: 5%;
       .introduction-title {
         color: rgb(67, 67, 67);
         line-height: 42px;
@@ -49,7 +50,7 @@
       }
     }
     .introduction-img {
-      width: 30%;
+      width: 50%;
       position: relative;
       img {
         width: 100%;
@@ -88,7 +89,6 @@
           height: auto;
         }
       }
-      
     }
   }
 }

@@ -54,7 +54,9 @@ html {
   color: #fff;
   background-color: #3b8070;
 }
-
+a{
+  text-decoration: none;
+}
 .button--grey {
   display: inline-block;
   border-radius: 4px;

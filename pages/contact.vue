@@ -66,7 +66,7 @@ export default {
     },
     submit: function() {
       if (this.checkForm()) {
-        var lan = this.$i18n.locale;
+        var lan = this.$store.state.locale;
         let data = {
           companyName: this.companyName,
           name: this.name,
