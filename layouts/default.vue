@@ -33,6 +33,9 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+body{
+  min-width: 1000px;
+}
 
 *,
 *:before,

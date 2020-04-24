@@ -22,72 +22,55 @@
 </template>
 <style lang="less" scoped>
 .introduct {
+  padding: 10px 10px;
   background-color: #f6f6f6;
+  min-width: 1000px;
   .title p {
     color: #3773dc;
     font-size: 30px;
     text-align: center;
   }
   .introduction {
-    max-width: 1000px;
     line-height: 16.79px;
     display: flex;
     text-align: left;
-    margin: 0 auto;
     .introduction-content {
-      width: 45%;
       padding: 10px;
-      padding: 5%;
       .introduction-title {
         color: rgb(67, 67, 67);
         line-height: 42px;
         font-size: 30px;
+        margin-bottom: 20px;
       }
       .introduction-text {
         color: rgb(102, 102, 102);
         line-height: 200%;
         font-size: 16px;
+        p{
+          margin-bottom: 20px;
+        }
       }
     }
     .introduction-img {
-      width: 50%;
-      position: relative;
+      margin: auto;
       img {
-        width: 100%;
+        margin: auto 0;
+        width: 500px;
+        height: 386px;
         object-fit: cover;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
       }
     }
   }
 }
-@media (max-width:1200px) {
+@media screen and(max-device-width:1200px) {
   .introduct {
     padding: 20px;
     .introduction {
+      display: flex;
+      flex-direction: column-reverse;
       .introduction-img img {
         width: 100%;
         height: auto;
-      }
-    }
-  }
-}
-@media(max-width:1000px) {
-  .introduct {
-    .introduction {
-      display: block;
-      .introduction-content {
-        width: 100%;
-      }
-      .introduction-img {
-        width: 100%;
-        height: 500px;
-        img {
-          width: 70%;
-          height: auto;
-        }
       }
     }
   }
