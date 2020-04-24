@@ -8,7 +8,7 @@
                 "companyIntr": "企业介绍",
                 "intrContent": [
                     {
-                        "text": "富乐达科技有限公司以「客户第一」、「品質第一」为经营理念，我们为合作伙伴提供高品质产品服务，为成为半导体行业高价值服务商而不断努力。"
+                        "text": "富乐达科技股份有限公司以「客户第一」、「品質第一」为经营理念，我们为合作伙伴提供高品质产品服务，为成为半导体行业高价值服务商而不断努力。"
                     },
                     {
                         "text": "我们与全球知名半导体厂商合作提供全面的硅片（Silicon Wafer）解决方案，从调试级硅片（Dummy Wafer）,测试级硅片（Test Wafer），到产品级硅片（Prime Wafer），以及特殊硅片氧化硅片（Oxide）、氮化硅片(Si3N4)、镀铝硅片、镀铜硅片、SOI Wafer、MEMS Glass、定制超厚、超平硅片等，尺寸覆盖50mm-300mm,并可提供半导体硅片单面/双面抛光、减薄、切割、MEMS等加工和定制服务。"
@@ -94,7 +94,7 @@
             "callUsPhone1":"+81-09050920178",
             "callUsPhone2":"+86-13942008044",
             "title": "咨询栏",
-            "companyName": "富乐达科技有限公司",
+            "companyName": "富乐达科技股份有限公司",
             "form": "Contact Form",
             "desc": "请填写以下所有信息。",
             "company": "公司名称:",
@@ -117,7 +117,7 @@
         "footer": {
             "contactUs": "Contact Us",
             "address": "Unit D, 16/F, One Capital Place 18 Luard Road,Wanchai,Hong Kong",
-            "wechat": "Wechat:18004113729",
+            "wechat": "Wechat:+86-18004113729/WhatsApp:+86-18004113729",
             "contactPhone1": "Contact:Shon/Call:+81-09050920178",
             "contactPhone2": "Contact:Luna/Call:+86-13942008044",
             "contactEmail": "Email:service@fuledatech.com"

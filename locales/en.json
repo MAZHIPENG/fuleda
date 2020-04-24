@@ -1,123 +1,123 @@
 {
-  "message": {
-      "home": {
-          "title": "HOME",
-          "language": "Language",
-          "introduction": {
-              "aboutUs": "About us",
-              "companyIntr": "Company Overview",
-              "intrContent": [
-                  {
-                      "text": "Fuleda Technology Co., Ltd put「customer first」and「quality first」as its business philosophy. We provide high-quality products and services to our partners and strive to become a high-value service provider in the semiconductor industry."
-                  },
-                  {
-                      "text": "We work with world-famous semiconductor manufacturers to provide comprehensive silicon wafer solutions, our main products including standard silicon wafers SSP(single side polished),DSP(Double side polished),test wafer and prime wafer,SOI wafer and coinroll wafers with diameter up to 12 inch,CZ/MCZ/FZ,Neutron radiation,almost any orientation,off cut,high and low resistivity,ultra flat,ultra thin,thick wafers etc. In addition, we can offer film deposition services(Oxide,Nitride,Metal),silicon epitaxial wafers and epitaxial services(SOS,GAN,GOT etc),downsizing,back grinding,dicing,etc."
-                  },
-                  {
-                      "text": "In addition to the semiconductor field, our company can also provide products in the field of solar energy and silicon nitride. Regular products, special specifications products and customized products with satisfactory services."
-                  }
-              ]
-          },
-          "project": {
-              "advantage": "Business Advantage",
-              "global": "Global Cooperation",
-              "customize": "Custom Order",
-              "profession": "Professional Service"
-          },
-          "swiper": [
-              {
-                  "list": [
-                      {
-                          "text": ""
-                      },
-                      {
-                          "text": ""
-                      },
-                      {
-                          "text": ""
-                      },
-                      {
-                          "text": ""
-                      }
-                  ]
-              },
-              {
-                  "list": [
-                      {
-                          "text": ""
-                      },
-                      {
-                          "text": ""
-                      },
-                      {
-                          "text": ""
-                      },
-                      {
-                          "text": ""
-                      }
-                  ]
-              }
-          ]
-      },
-      "product": {
-          "title": "PRODUCTS",
-          "service": "Product Service",
-          "productInfo": "Product Information",
-          "pre": "back：",
-          "next": "next：",
-          "return": "Return",
-          "category": [
-              {
-                  "title": "Semiconductor"
-              },
-              {
-                  "title": "Solar Energy"
-              },
-              {
-                  "title": "Silicon Nitride"
-              }
-          ]
-      },
-      "news": {
-          "title": "NEWS",
-          "center": "News Center",
-          "article": {
-              "author": "",
-              "releaseTime": "Release Time："
-          }
-      },
-      "contact": {
-          "callUsEmail": "service@fuledatech.com",
-          "callUsPhone1": "+81-09050920178",
-          "callUsPhone2": "+86-13942008044",
-          "title": "CONTACT",
-          "companyName": "FULEDA TECHNOLOGY LIMITED",
-          "form": "Contact Form",
-          "desc": "Please fill all the texts in the fields.",
-          "company": "Company name:",
-          "name": "Name:",
-          "mobile": "Mobile:",
-          "email": "Email:",
-          "confirm": "Email Confirm:",
-          "message": "Message:",
-          "companyError": "Company required.",
-          "nameError": "Name required.",
-          "emailValid": "Please confirm the mail format.",
-          "mobileError": "Mobile required.",
-          "emailError": "Email required.",
-          "confirmError": "Email Confirm",
-          "messageError": "message required.",
-          "messageLengthError": "Message cannot exceed 1000 words.",
-          "submit": "Submit",
-          "reset": "Reset"
-      },
-      "footer": {
-          "contactUs": "Contact Us",
-          "address": "Unit D, 16/F, One Capital Place 18 Luard Road,Wanchai,Hong Kong",
-          "wechat": "Wechat:18004113729",
-          "contactPhone1": "Contact:Shon/Call:+81-09050920178",
-          "contactPhone2": "Contact:Luna/Call:+86-13942008044",
-          "contactEmail": "Email:service@fuledatech.com"
-      }
-  }
+    "message": {
+        "home": {
+            "title": "HOME",
+            "language": "Language",
+            "introduction": {
+                "aboutUs": "About us",
+                "companyIntr": "Company Overview",
+                "intrContent": [
+                    {
+                        "text": "Fuleda Technology Limited put「Customer First」and「Quality First」as its business philosophy. We provide high-quality products and services to our partners and strive to become a high-value service provider in the semiconductor industry."
+                    },
+                    {
+                        "text": "We work with world-famous semiconductor manufacturers to provide comprehensive silicon wafer solutions, our main products including standard silicon wafers SSP(single side polished),DSP(Double side polished),test wafer and prime wafer,SOI wafer and coinroll wafers with diameter up to 12 inch,CZ/MCZ/FZ,Neutron radiation,almost any orientation,off cut,high and low resistivity,ultra flat,ultra thin,thick wafers etc. In addition, we can offer film deposition services(Oxide,Nitride,Metal),silicon epitaxial wafers and epitaxial services(SOS,GAN,GOT etc),downsizing,back grinding,dicing,etc."
+                    },
+                    {
+                        "text": "In addition to the semiconductor field, our company can also provide products in the field of solar energy and silicon nitride. Regular products, special specifications products and customized products with satisfactory services."
+                    }
+                ]
+            },
+            "project": {
+                "advantage": "Business Advantage",
+                "global": "Global Cooperation",
+                "customize": "Custom Order",
+                "profession": "Professional Service"
+            },
+            "swiper": [
+                {
+                    "list": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                },
+                {
+                    "list": [
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        },
+                        {
+                            "text": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "product": {
+            "title": "PRODUCTS",
+            "service": "Product Service",
+            "productInfo": "Product Information",
+            "pre": "back：",
+            "next": "next：",
+            "return": "Return",
+            "category": [
+                {
+                    "title": "Semiconductor"
+                },
+                {
+                    "title": "Solar Energy"
+                },
+                {
+                    "title": "Silicon Nitride"
+                }
+            ]
+        },
+        "news": {
+            "title": "NEWS",
+            "center": "News Center",
+            "article": {
+                "author": "",
+                "releaseTime": "Release Time："
+            }
+        },
+        "contact": {
+            "callUsEmail": "service@fuledatech.com",
+            "callUsPhone1": "+81-09050920178",
+            "callUsPhone2": "+86-13942008044",
+            "title": "CONTACT",
+            "companyName": "FULEDA TECHNOLOGY LIMITED",
+            "form": "Contact Form",
+            "desc": "Please fill all the texts in the fields.",
+            "company": "Company name:",
+            "name": "Name:",
+            "mobile": "Mobile:",
+            "email": "Email:",
+            "confirm": "Email Confirm:",
+            "message": "Message:",
+            "companyError": "Company required.",
+            "nameError": "Name required.",
+            "emailValid": "Please confirm the mail format.",
+            "mobileError": "Mobile required.",
+            "emailError": "Email required.",
+            "confirmError": "Email Confirm",
+            "messageError": "message required.",
+            "messageLengthError": "Message cannot exceed 1000 words.",
+            "submit": "Submit",
+            "reset": "Reset"
+        },
+        "footer": {
+            "contactUs": "Contact Us",
+            "address": "Unit D, 16/F, One Capital Place 18 Luard Road,Wanchai,Hong Kong",
+            "wechat": "Wechat:+86-18004113729/WhatsApp:+86-18004113729",
+            "contactPhone1": "Contact:Shon/Call:+81-09050920178",
+            "contactPhone2": "Contact:Luna/Call:+86-13942008044",
+            "contactEmail": "Email:service@fuledatech.com"
+        }
+    }
 }
