@@ -336,6 +336,7 @@ a {
       color: #3773dc;
       font-family: 微软雅黑;
       font-size: 30px;
+      margin-bottom: 50px;
     }
     .product-category {
       .category-title {

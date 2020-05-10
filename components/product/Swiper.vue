@@ -113,6 +113,10 @@ a {
 .banner-img-box{
   height: 400px;
 }
+.banner-img{
+  width: 100%;
+  height: 100%;
+}
 .swiper-slide {
   height: 300px;
   position: relative;
