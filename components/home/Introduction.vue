@@ -22,7 +22,7 @@
 </template>
 <style lang="less" scoped>
 .introduct {
-  padding: 10px 10px;
+  padding: 10px 100px;
   background-color: #f6f6f6;
   min-width: 1000px;
   .title p {
@@ -48,6 +48,7 @@
         font-size: 16px;
         p{
           margin-bottom: 20px;
+          font-size: 14px;
         }
       }
     }
