@@ -344,6 +344,7 @@ a {
     .product-category {
       .category-title {
         font-size: 22px;
+        margin-bottom: 30px;
       }
       .product-content {
         padding: 0 50px;
@@ -449,8 +450,7 @@ a {
                     color: #666666;
                     margin: 0 50px;
                     font-size: 22px;
-                    line-height: 140%;
-                    line-height: 140%;
+                    line-height: 22px;
                     text-align: left;
                   }
                 }

@@ -341,6 +341,7 @@ a {
     .product-category {
       .category-title {
         font-size: 22px;
+        margin-bottom: 30px;
       }
       .product-content {
         padding: 0 50px;
