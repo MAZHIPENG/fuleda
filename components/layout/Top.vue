@@ -75,7 +75,7 @@ export default {
     padding: 10px 160px;
     .top-company {
       margin: auto 0;
-      width: 60%;
+      // width: 60%;
       display: flex;
       .logo-img {
         width: 80px;
@@ -86,6 +86,7 @@ export default {
         display: inline-block;
         img {
           max-height: 45px;
+          max-width: 450px;
         }
       }
     }
@@ -164,6 +165,7 @@ export default {
      .top-content {
       padding: 10px;
       .top-company {
+        width: 52%;
         .company-name {
           img {
             // max-width: 45px;
