@@ -85,7 +85,7 @@ export default {
         margin: auto 0;
         display: inline-block;
         img {
-          max-width: 60%;
+          max-height: 45px;
         }
       }
     }
@@ -159,4 +159,18 @@ export default {
     }
   }
 }
+@media screen and(max-device-width:1000px) {
+  .top{
+     .top-content {
+      padding: 10px;
+      .top-company {
+        .company-name {
+          img {
+            // max-width: 45px;
+          }
+        }
+      }
+    }
+  }
+} 
 </style>
